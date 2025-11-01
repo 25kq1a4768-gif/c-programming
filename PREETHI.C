@@ -1,20 +1,19 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
-int first,second,add,subtract,multiply;
-float divide;
-printf("enter two integers\n");
-scanf("%d%d",&first,&second);
-add=first+second;
-subtract=first-second ;
-multiply=first*second;
-divide=first/(float)second;
-printf("sum=%d\n",add);
-printf("difference=%d\n",subtract);
-printf("multiplication=%d\n",multiply);
-printf("division=%.2f\n",divide);
+int a,b;
+printf("enter a and b values");
+scanf("%d%d",&a,&b);
+int addition=a+b;
+int subtraction=a-b;
+int multiplication=a*b;
+int division=a/b;
+printf("addition of %d and %d  is %d\n",a,b,addition);
+printf("subtraction %d and %d  is %d\n",a,b,subtraction);
+printf("multiplication of %d and %d is %d\n",a,b,multiplication);
+printf("division of %d and %d is %d\n",a,b,division);
 return 0;
-
 }
+
 
